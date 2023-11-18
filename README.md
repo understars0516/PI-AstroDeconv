@@ -9,12 +9,19 @@ We present a straightforward and efficient approach for blind image deblurring b
 ### Data Generator:
 image: download from [WEBB](https://webbtelescope.org/images), reshape the image to (2048, 2048).
 
-![image](https://github.com/understars0516/PI-AstroDeconv/assets/32385394/79f066f3-d2e7-48ab-8fd5-5c10f653f420)
+![image](https://github.com/understars0516/PI-AstroDeconv/assets/32385394/be88243d-a4d2-43bc-9d28-da3b86629e2c)
+
 
 
 psf: simulation by [webbpsf](https://webbpsf.readthedocs.io/en/latest/usage.html)
 
-![image](https://github.com/understars0516/PI-AstroDeconv/assets/32385394/59a1705a-170b-4624-9108-bf6021b42e33)
+![image](https://github.com/understars0516/PI-AstroDeconv/assets/32385394/ede23454-ce15-45e6-a2b8-ec248ff1f74a)
+
+
+simulation data $image \otimes psf$ : 
+
+![image](https://github.com/understars0516/PI-AstroDeconv/assets/32385394/21734dd9-26e1-4cc7-83eb-4b9bce708131)
+
 
 ### ae: 
 based AutoEncoder model
